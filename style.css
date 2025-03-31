@@ -618,6 +618,15 @@ footer a:hover {
         font-size: 3rem;
     }
 
+    .hero-text p {
+        padding: 1rem;
+        font-size: 17px;
+    }
+
+    .hero-text .btn {
+        margin-top: 1rem;
+    }
+
     .hero-img {
         margin-top: 1rem;
         height: 17rem;
@@ -642,7 +651,7 @@ footer a:hover {
 
     .journey .education {
         width: 80vw;
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .journey .skills {
