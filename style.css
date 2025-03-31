@@ -233,10 +233,12 @@ nav ul {
     flex-direction: column;
     border: 2px solid #b6b2ff;
     border-radius: 1rem;
+    padding-bottom: 2rem;
 }
 
 .education h2 {
     margin-bottom: 3rem;
+    margin-top: 1rem;
     font-size: 2rem;
     color: #b6b2ff;
 }
@@ -260,6 +262,7 @@ nav ul {
     flex-direction: column;
     gap: 5px;
     padding-left: 40px;
+    padding-right: 20px;
 }
 
 .timeline-items .year {
@@ -285,6 +288,7 @@ nav ul {
     font-size: 2rem;
     text-align: center;
     color: #b6b2ff;
+    margin-top: 1rem;
     margin-bottom: 3rem;
 }
 
@@ -352,7 +356,7 @@ nav ul {
 .project-container {
     position: relative;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     justify-content: center;
     padding: 30px;
@@ -602,8 +606,8 @@ footer a:hover {
         padding: 0;
         margin: 0;
         margin-top: 2rem;
-        height: 100vh;
-        /* background-color: #321C14; */
+        height: auto;
+
     }
 
     .hero-text {
@@ -638,7 +642,7 @@ footer a:hover {
     }
 
     #about p {
-        font-size: 15px;
+        font-size: 17px;
     }
 
 
@@ -651,7 +655,6 @@ footer a:hover {
 
     .journey .education {
         width: 80vw;
-        /* height: 100vh; */
     }
 
     .journey .skills {
